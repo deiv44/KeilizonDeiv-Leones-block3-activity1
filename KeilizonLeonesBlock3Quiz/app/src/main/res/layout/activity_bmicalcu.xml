@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BMIcalcu">
+    tools:context=".BMIcalcu"
+    android:background="@drawable/bgasa">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,36 +21,35 @@
             android:id="@+id/editTextWeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Weight (kg)"
+            android:hint="@string/enter_weight_kg"
             android:inputType="numberDecimal" />
 
         <EditText
             android:id="@+id/editTextHeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Height (m)"
+            android:hint="@string/enter_height_m"
             android:inputType="numberDecimal" />
 
         <Button
             android:id="@+id/buttonCalculateBMI"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calculate BMI" />
+            android:text="@string/calculate_bmi" />
 
         <TextView
             android:id="@+id/textViewResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="BMI Result: "
+            android:text="@string/bmi_result"
             android:textSize="18sp" />
 
         <Button
             android:id="@+id/btrtn"
             android:layout_width="383dp"
-            android:layout_height="97dp"
-            android:text="back" />
-
+            android:layout_height="58dp"
+            android:text="return" />
 
     </LinearLayout>
 

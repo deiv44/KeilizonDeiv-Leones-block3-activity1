@@ -4,4 +4,9 @@
     <string name="back">Back</string>
     <string name="bmi_caculator">BMI Caculator</string>
     <string name="exit">Exit</string>
+    <string name="enter_weight_kg">Enter Weight (kg)</string>
+    <string name="enter_height_m">Enter Height (m)</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="bmi_result">BMI Result:</string>
+    <string name="return">back</string>
 </resources>
