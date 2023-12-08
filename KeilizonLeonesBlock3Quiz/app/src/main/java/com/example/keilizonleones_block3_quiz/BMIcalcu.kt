@@ -1,0 +1,11 @@
+package com.example.keilizonleones_block3_quiz
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class BMIcalcu : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_bmicalcu)
+    }
+}

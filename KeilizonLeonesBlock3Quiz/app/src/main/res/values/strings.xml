@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KeilizonLeones-Block3-Quiz</string>
+    <string name="calculate">Calculate</string>
+    <string name="back">Back</string>
+    <string name="bmi_caculator">BMI Caculator</string>
+    <string name="exit">Exit</string>
+</resources>
